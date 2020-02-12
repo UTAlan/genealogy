@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<header>
+  <h1>Spouse Relative Checker</h1>
+
+  <p>Get a report of everyone who is married to a relative, along with their closest shared ancestor.</p>
+</header>
+
+<section>
+  <form method="post" enctype="multipart/form-data" action="/spouse-relative-checker">
+    <input type="file" name="file" />
+    <input type="submit" value="Upload" />
+  </form>
+</section>
+
+{% endblock content %}

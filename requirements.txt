@@ -1,0 +1,16 @@
+beautifulsoup4==4.8.2
+Click==7.0
+Flask==1.1.1
+Flask-WTF==0.14.3
+itsdangerous==1.1.0
+jac==0.17.2
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+ordereddict==1.1
+python-dotenv==0.11.0
+python-gedcom==1.0.0
+rjsmin==1.1.0
+six==1.14.0
+soupsieve==1.9.5
+Werkzeug==1.0.0
+WTForms==2.2.1
